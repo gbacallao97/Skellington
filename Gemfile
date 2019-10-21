@@ -68,6 +68,7 @@ gem 'bootstrap', '4.0.0.alpha6'
 gem 'simple_form'
 gem 'geocoder'
 gem 'figaro'
+gem 'fog-aws'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
@@ -77,3 +78,5 @@ gem 'will_paginate', '~> 3.1.1'
 gem 'will_paginate-bootstrap'
 gem "font-awesome-rails"
 gem 'devise'
+gem 'carrierwave', '~> 2.0.2'
+
