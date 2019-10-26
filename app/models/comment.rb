@@ -4,11 +4,11 @@ class Comment < ApplicationRecord
   after_create :send_comment_email
 
   RATINGS = {
-    'one skull': '1_skull',
-    'two skulls': '2_skulls',
-    'three skulls': '3_skulls',
-    'four skulls': '4_skulls',
-    'five skulls': '5_skulls'
+    'One Skull': '1_skull',
+    'Two Skulls': '2_skulls',
+    'Three Skulls': '3_skulls',
+    'Four Skulls': '4_skulls',
+    'Five Skulls': '5_skulls'
   }
 
   def humanized_rating

@@ -1,12 +1,16 @@
+// IMPORTS:
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Neucha&display=swap');
 
 @import "bootstrap";
 @import "font-awesome";
 
+// CONTENT:
 .booyah-box {
-  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
-  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
-  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -moz-box-shadow: 3px 3px 6px 0 #d0d0d0;
+  -webkit-box-shadow: 3px 3px 6px 0 #d0d0d0;
+  box-shadow: 3px 3px 6px 0 #d0d0d0;
   background: #fff;
   border: 1px solid #ccc;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
@@ -15,6 +19,7 @@
   padding: 20px
 }
 
+// GLOBAL:
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
@@ -27,7 +32,7 @@ body {
 
 .navbar {
   background: image_url('blackmamba.png');
-  box-shadow: 0px 1px 3px #2a2a2a;
+  box-shadow: 1px 2px 3px #2a2a2a;
 }
 
 .navbar-inverse .navbar-brand {
@@ -35,6 +40,11 @@ body {
   font-family: 'Shadows Into Light', cursive;
   letter-spacing: 10px;
   font-weight: 40px;
+}
+
+.comments_captions {
+  font-family: 'Neucha', cursive;
+  font-size: 20px;
 }
 
 .invalid-feedback {
@@ -92,3 +102,22 @@ blockquote p {
   box-shadow: 0px 3px 8px #2a2a2a;
 }
 
+small {
+  font-family: 'Cinzel', serif;
+  font-size: 12px;
+}
+
+// PROFILE:
+.profile {
+  font-size: 2vw;
+  font-family: 'Neucha', cursive;
+  color: black;
+}
+
+.profile_email {
+  font-family: 'Cinzel', serif;
+  text-shadow: 0 0 3px #ff0000;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
